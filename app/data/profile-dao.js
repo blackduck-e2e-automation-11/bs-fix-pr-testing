@@ -1,4 +1,5 @@
 /* The ProfileDAO must be constructed with a connected database object */
+const path = require('path'); // path module required for safe path resolution
 function ProfileDAO(db) {
 
     "use strict";
